@@ -9,10 +9,6 @@ Pour organiser les utilisateurs par service, j’ai créé plusieurs OU dans le 
 <img width="697" height="124" alt="image" src="https://github.com/user-attachments/assets/0c0d5037-d264-4c4a-abe2-d3dd44429d88" />
 
 
-<img width="1273" height="955" alt="image" src="https://github.com/user-attachments/assets/fce2992a-7d76-4cf2-972c-eefc84701b8e" />
-
-
-
 **2. Création des utilisateurs dans l’OU IT**
 J’ai automatisé la création de plusieurs utilisateurs dans l’OU IT avec PowerShell :
 
