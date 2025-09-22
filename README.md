@@ -4,3 +4,8 @@ Ce projet montre comment j’ai mis en place un domaine Active Directory dans un
 
 1. Création des Unités d’Organisation (OU)
 Pour organiser les utilisateurs par service, j’ai créé plusieurs OU dans le domaine ``mydomaine.local`` à l’aide de PowerShell :
+
+``$List_OU = @("IT", "Finance", "HR", "Marketing", "Support")
+foreach ($ou in $List_OU) {
+    New-ADOrganizationalUnit -Name $ou -Path "DC=mydomaine,DC=local"
+}``
