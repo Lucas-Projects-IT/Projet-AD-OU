@@ -1,6 +1,6 @@
 # Projet-AD-OU
 
-Ce projet montre comment j’ai structuré un domaine Active Directory déjà existant dans un environnement Windows Server. J’ai utilisé PowerShell pour automatiser la création des Unités d’Organisation (OU) et des comptes utilisateurs, et l’interface graphique pour vérifier et gérer les objets. L’objectif est de simuler une organisation d’entreprise avec des OU par service, des groupes de sécurité, et une VM cliente connectée au domaine pour tester l’authentification.
+Ce projet montre comment j’ai commencé à structurer un domaine Active Directory existant dans un environnement Windows Server. L’objectif est de rester sur des choses simples : créer des Unités d’Organisation (OU), des utilisateurs, des groupes de sécurité, et tester la connexion d’un poste client au domaine. J’ai utilisé PowerShell pour aller plus vite, et l’interface graphique pour vérifier et illustrer chaque étape.
 
 **1. Création des Unités d’Organisation (OU)**
 Pour organiser les utilisateurs par service, j’ai créé plusieurs OU dans le domaine ``mydomaine.local`` à l’aide de PowerShell :
